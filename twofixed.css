@@ -1,0 +1,52 @@
+
+#first {
+    background-image: url("img/123.png");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second {
+    background-image: url("img/123_2.png");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first .row{
+    min-height:100% ;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#first .row div:last-child{
+    min-height:inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+}
+
+#rocket{
+    height:20%;
+    top:0px;
+    z-index: 200;
+    position: absolute;
+}
+
+
+#second .row{
+    min-height: inherit;
+    
+}
+
+
+#second .row div:last-child{
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+}
+
